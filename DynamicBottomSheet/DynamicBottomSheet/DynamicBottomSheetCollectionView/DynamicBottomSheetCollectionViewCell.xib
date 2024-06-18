@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="fDJ-af-zQW" customClass="DynamicBottomSheetCollectionViewCell" customModule="DynamicBottomSheet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="211" height="118"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hdx-VB-GFC">
+                <rect key="frame" x="0.0" y="0.0" width="211" height="118"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpV-Tn-umN">
+                        <rect key="frame" x="30" y="48.666666666666664" width="42" height="20.999999999999993"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zpV-Tn-umN" firstAttribute="leading" secondItem="hdx-VB-GFC" secondAttribute="leading" constant="30" id="qrt-uy-pfy"/>
+                    <constraint firstItem="zpV-Tn-umN" firstAttribute="centerY" secondItem="hdx-VB-GFC" secondAttribute="centerY" id="tSx-ZX-goo"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="211" height="118"/>
+            <connections>
+                <outlet property="label" destination="zpV-Tn-umN" id="Xjk-nY-e3L"/>
+            </connections>
+            <point key="canvasLocation" x="148.85496183206106" y="43.661971830985919"/>
+        </collectionViewCell>
+    </objects>
+</document>
